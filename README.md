@@ -10,7 +10,7 @@ Root Files
 •	provider.tf: Configures the required providers (e.g., Azure).
 •	variables.tf: Declares input variables for the configuration.
 
-Modules
+
 Modules are reusable components that encapsulate specific infrastructure resources.
 Available Modules
 
@@ -82,6 +82,5 @@ Each module is designed to:
 
 
 Notes:
-•	This code assumes that, necessary Azure provider configured and authentication details set up.
 •	Make sure the  Azure account has the necessary permissions to create resources in the specified resource group and region
 
